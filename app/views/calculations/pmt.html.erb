@@ -1,3 +1,8 @@
-<h1>Payment</h1>
+<h1>Payment </h1>
+<h2>(enter your interest rate, number of payments and initial principal value in the above browswer)</h2>
 
-<p>The monthly payment is $<%= @payment %>.</p>
+<% params[:interest_rate]%>
+<% params[:number_of_payments] %>
+<%params[:present_value]%>
+
+<p>The monthly payment is $<%= @payment %>. based on the above values you entered</p>
